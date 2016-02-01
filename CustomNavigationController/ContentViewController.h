@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ContentViewController.h
 //  CustomNavigationController
 //
 //  Created by apple on 16/1/26.
@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RootViewController.h"
 
-@interface ViewController : UIViewController
-
+@interface ContentViewController : RootViewController
 
 @end
-

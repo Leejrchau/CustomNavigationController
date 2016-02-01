@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		1861D2AD1C57577D000AAC52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1861D2AC1C57577D000AAC52 /* main.m */; };
 		1861D2B01C57577D000AAC52 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1861D2AF1C57577D000AAC52 /* AppDelegate.m */; };
-		1861D2B31C57577D000AAC52 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1861D2B21C57577D000AAC52 /* ViewController.m */; };
-		1861D2B61C57577D000AAC52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1861D2B41C57577D000AAC52 /* Main.storyboard */; };
 		1861D2B81C57577D000AAC52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1861D2B71C57577D000AAC52 /* Assets.xcassets */; };
 		1861D2BB1C57577D000AAC52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1861D2B91C57577D000AAC52 /* LaunchScreen.storyboard */; };
 		1861D2C61C57577D000AAC52 /* CustomNavigationControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1861D2C51C57577D000AAC52 /* CustomNavigationControllerTests.m */; };
 		1861D2D11C57577D000AAC52 /* CustomNavigationControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1861D2D01C57577D000AAC52 /* CustomNavigationControllerUITests.m */; };
+		1861D2E01C575925000AAC52 /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1861D2DF1C575925000AAC52 /* ContentViewController.m */; };
+		1861D2E31C575CBC000AAC52 /* CustomNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1861D2E21C575CBC000AAC52 /* CustomNavigationController.m */; };
+		18BC4DFA1C5EFCC8007C768B /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BC4DF91C5EFCC8007C768B /* RootViewController.m */; };
+		18BC4E001C5F01F0007C768B /* NavigationBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BC4DFF1C5F01F0007C768B /* NavigationBarView.m */; };
+		18CF73571C589C3E00B58BE8 /* CustomRootViewControllerSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CF73561C589C3E00B58BE8 /* CustomRootViewControllerSegue.m */; };
+		18CF73601C58A00700B58BE8 /* CustomTransitionSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CF735F1C58A00700B58BE8 /* CustomTransitionSegue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +43,6 @@
 		1861D2AC1C57577D000AAC52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1861D2AE1C57577D000AAC52 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1861D2AF1C57577D000AAC52 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1861D2B11C57577D000AAC52 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1861D2B21C57577D000AAC52 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1861D2B51C57577D000AAC52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1861D2B71C57577D000AAC52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1861D2BA1C57577D000AAC52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1861D2BC1C57577D000AAC52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +52,18 @@
 		1861D2CC1C57577D000AAC52 /* CustomNavigationControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomNavigationControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1861D2D01C57577D000AAC52 /* CustomNavigationControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomNavigationControllerUITests.m; sourceTree = "<group>"; };
 		1861D2D21C57577D000AAC52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1861D2DE1C575925000AAC52 /* ContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
+		1861D2DF1C575925000AAC52 /* ContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentViewController.m; sourceTree = "<group>"; };
+		1861D2E11C575CBC000AAC52 /* CustomNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNavigationController.h; sourceTree = "<group>"; };
+		1861D2E21C575CBC000AAC52 /* CustomNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavigationController.m; sourceTree = "<group>"; };
+		18BC4DF81C5EFCC8007C768B /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		18BC4DF91C5EFCC8007C768B /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		18BC4DFE1C5F01F0007C768B /* NavigationBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationBarView.h; sourceTree = "<group>"; };
+		18BC4DFF1C5F01F0007C768B /* NavigationBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationBarView.m; sourceTree = "<group>"; };
+		18CF73551C589C3E00B58BE8 /* CustomRootViewControllerSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomRootViewControllerSegue.h; sourceTree = "<group>"; };
+		18CF73561C589C3E00B58BE8 /* CustomRootViewControllerSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomRootViewControllerSegue.m; sourceTree = "<group>"; };
+		18CF735E1C58A00700B58BE8 /* CustomTransitionSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTransitionSegue.h; sourceTree = "<group>"; };
+		18CF735F1C58A00700B58BE8 /* CustomTransitionSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTransitionSegue.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,13 +116,22 @@
 			children = (
 				1861D2AE1C57577D000AAC52 /* AppDelegate.h */,
 				1861D2AF1C57577D000AAC52 /* AppDelegate.m */,
-				1861D2B11C57577D000AAC52 /* ViewController.h */,
-				1861D2B21C57577D000AAC52 /* ViewController.m */,
-				1861D2B41C57577D000AAC52 /* Main.storyboard */,
 				1861D2B71C57577D000AAC52 /* Assets.xcassets */,
 				1861D2B91C57577D000AAC52 /* LaunchScreen.storyboard */,
 				1861D2BC1C57577D000AAC52 /* Info.plist */,
 				1861D2AB1C57577D000AAC52 /* Supporting Files */,
+				1861D2DE1C575925000AAC52 /* ContentViewController.h */,
+				1861D2DF1C575925000AAC52 /* ContentViewController.m */,
+				1861D2E11C575CBC000AAC52 /* CustomNavigationController.h */,
+				1861D2E21C575CBC000AAC52 /* CustomNavigationController.m */,
+				18CF73551C589C3E00B58BE8 /* CustomRootViewControllerSegue.h */,
+				18CF73561C589C3E00B58BE8 /* CustomRootViewControllerSegue.m */,
+				18CF735E1C58A00700B58BE8 /* CustomTransitionSegue.h */,
+				18CF735F1C58A00700B58BE8 /* CustomTransitionSegue.m */,
+				18BC4DF81C5EFCC8007C768B /* RootViewController.h */,
+				18BC4DF91C5EFCC8007C768B /* RootViewController.m */,
+				18BC4DFE1C5F01F0007C768B /* NavigationBarView.h */,
+				18BC4DFF1C5F01F0007C768B /* NavigationBarView.m */,
 			);
 			path = CustomNavigationController;
 			sourceTree = "<group>";
@@ -245,7 +267,6 @@
 			files = (
 				1861D2BB1C57577D000AAC52 /* LaunchScreen.storyboard in Resources */,
 				1861D2B81C57577D000AAC52 /* Assets.xcassets in Resources */,
-				1861D2B61C57577D000AAC52 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,8 +291,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1861D2B31C57577D000AAC52 /* ViewController.m in Sources */,
+				18CF73601C58A00700B58BE8 /* CustomTransitionSegue.m in Sources */,
+				18BC4DFA1C5EFCC8007C768B /* RootViewController.m in Sources */,
+				1861D2E01C575925000AAC52 /* ContentViewController.m in Sources */,
+				18CF73571C589C3E00B58BE8 /* CustomRootViewControllerSegue.m in Sources */,
 				1861D2B01C57577D000AAC52 /* AppDelegate.m in Sources */,
+				1861D2E31C575CBC000AAC52 /* CustomNavigationController.m in Sources */,
+				18BC4E001C5F01F0007C768B /* NavigationBarView.m in Sources */,
 				1861D2AD1C57577D000AAC52 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,14 +334,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1861D2B41C57577D000AAC52 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1861D2B51C57577D000AAC52 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1861D2B91C57577D000AAC52 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -496,6 +514,7 @@
 				1861D2D71C57577D000AAC52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1861D2D81C57577D000AAC52 /* Build configuration list for PBXNativeTarget "CustomNavigationControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +523,7 @@
 				1861D2DA1C57577D000AAC52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1861D2DB1C57577D000AAC52 /* Build configuration list for PBXNativeTarget "CustomNavigationControllerUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +532,7 @@
 				1861D2DD1C57577D000AAC52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
